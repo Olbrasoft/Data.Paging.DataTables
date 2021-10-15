@@ -9,17 +9,18 @@
     <PackageIcon>olbrasoft-data-paging-datatables.png</PackageIcon>
     <PackageTags>DataTables</PackageTags>
     <RepositoryUrl>https://github.com/Olbrasoft/Data.Paging.DataTables</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Olbrasoft.Data" Version="*" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\olbrasoft-data-paging-datatables.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Olbrasoft.Data.Paging" Version="1.0.1" />
+    <PackageReference Include="Olbrasoft.Data.Sorting" Version="1.0.4" />
   </ItemGroup>
 </Project>

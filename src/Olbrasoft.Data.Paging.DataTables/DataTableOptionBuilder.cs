@@ -1,4 +1,6 @@
-﻿namespace Olbrasoft.Data.Paging.DataTables
+﻿using Olbrasoft.Data.Sorting;
+
+namespace Olbrasoft.Data.Paging.DataTables
 {
     public class DataTableOptionBuilder : IDataTableOptionBuilder
     {
